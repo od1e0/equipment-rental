@@ -33,6 +33,12 @@
 
   &__img {
     width: 150px;
+    @media (max-width: 500px) {
+      width: 100px;
+    }
+    @media (max-width: 300px) {
+      display: none;
+    }
   }
 
   &__text {
